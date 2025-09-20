@@ -1,0 +1,6 @@
+// Example: Use VX-BLACK-HOLE++ as entropy oracle
+interface VXBlackHole {
+    function drip() external view returns (uint256);
+}
+VXBlackHole constant vx = VXBlackHole(0xDETERMINISTIC_ADDRESS_HERE);
+// Call vx.drip() for randomness / yield or
