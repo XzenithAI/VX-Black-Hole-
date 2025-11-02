@@ -1,0 +1,26 @@
+{
+  "name": "vx-mind-layer",
+  "version": "0.1.0",
+  "description": "VX Mind Layer - The first true Mind OS with integrated cognitive architecture",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "node --test dist/**/*.test.js",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mind-os",
+    "cognitive-architecture",
+    "causal-reasoning",
+    "autonomous-agent",
+    "semantic-memory"
+  ],
+  "author": "Xzenith",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  }
+}
